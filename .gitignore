@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (si en el futuro se usa para builds)
+node_modules/
+
+# Composer
+vendor/
+
+# Logs
+*.log
