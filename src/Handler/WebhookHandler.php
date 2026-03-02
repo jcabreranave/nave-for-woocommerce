@@ -191,6 +191,7 @@ final class WebhookHandler {
             $this->log( 'Webhook — error al procesar orden #' . $order->get_id() . ': ' . $e->getMessage(), 'error' );
             $order->add_order_note(
                 sprintf(
+                    /* translators: %s: Technical error message from the Nave API */
                     __( '⚠️ [Nave] Error al procesar webhook. Detalle técnico: %s', 'nave-for-woocommerce' ),
                     $e->getMessage()
                 ),
