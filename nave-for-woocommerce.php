@@ -3,7 +3,7 @@
  * Plugin Name:       Nave for WooCommerce
  * Plugin URI:        https://github.com/jcabreranave/nave-for-woocommerce
  * Description:       Método de pago por redirección usando la API de Nave.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Nave Integrations
  * Author URI:        https://navenegocios.com/
  * License:           GPL-2.0+
@@ -24,7 +24,7 @@ namespace NaveWC;
 defined( 'ABSPATH' ) || exit;
 
 // ─── Constants ───────────────────────────────────────────────────────────────
-define( 'NAVE_WC_VERSION',   '1.0.0' );
+define( 'NAVE_WC_VERSION',   '1.0.1' );
 define( 'NAVE_WC_FILE',      __FILE__ );
 define( 'NAVE_WC_PATH',      plugin_dir_path( __FILE__ ) );
 define( 'NAVE_WC_URL',       plugin_dir_url( __FILE__ ) );

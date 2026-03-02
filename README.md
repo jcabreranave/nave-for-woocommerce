@@ -3,7 +3,7 @@ Contributors: jcabreranave
 Tags: woocommerce, payment, gateway, nave, argentina
 Requires at least: 6.0
 Tested up to: 6.9
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires PHP: 8.0
 Requires Plugins: woocommerce
 License: GPLv2 or later
@@ -57,10 +57,22 @@ Yes, it is fully compatible with WooCommerce High-Performance Order Storage.
 
 == Changelog ==
 
+= 1.0.1 =
+* Added external services disclosure in readme (Guideline 6)
+* Replaced inline styles and scripts with wp_add_inline_style() and wp_add_inline_script()
+* Added Requires Plugins header for WooCommerce dependency
+* Fixed Plugin URI to valid public URL
+* Added translators comments for i18n placeholders
+* Prefixed global variables in uninstall.php
+* Used $wpdb->prepare() for database cleanup queries
+
 = 1.0.0 =
 * Initial release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+Compliance fixes for WordPress.org Plugin Directory guidelines.
 
 = 1.0.0 =
 Initial release.
